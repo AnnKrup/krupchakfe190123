@@ -29,7 +29,9 @@ export const SingleUser: FC<Props> = ({ user, goBack }) => {
           alt={`user ${user.name}`}
           src={`/foto/${user.photo}`}
         />
-        <div data-testid="name">{user.name}</div>
+        <div data-testid="name">
+          <b>{user.name}</b>
+        </div>
         <div data-testid="position">{user.position}</div>
       </div>
       <div className="SingleUserCardBottom">
