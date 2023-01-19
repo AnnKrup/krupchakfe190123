@@ -1,4 +1,9 @@
 ## Install & Start
+Install dependencies
+
+```shell
+yarn
+```
 
 Start app
 
