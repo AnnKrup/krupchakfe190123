@@ -40,8 +40,8 @@ export const SingleUser: FC<Props> = ({ user, goBack }) => {
         </div>
         <div>
           <div>{user.phone}</div>
-          <div>{user.nickname}</div>
-          <div>{user.email}</div>
+          <div className="Link">{user.nickname}</div>
+          <div className="Link">{user.email}</div>
         </div>
       </div>
       <div className="BtnSendMessage">Send message</div>

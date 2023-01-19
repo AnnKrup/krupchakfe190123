@@ -1,7 +1,7 @@
 .Wrapper {
     max-width: 400px;
     border: 1px solid grey;
-    margin: 20px;
+    margin: 20px auto;
 }
 
 .BtnViewAll {
@@ -82,10 +82,14 @@
     display: flex;
     justify-content: center;
     color: white;
-    background-color: blueviolet;
+    background-color: blue;
     border-radius: 5px;
     margin: 20px;
     padding: 10px;
     border: 1px solid blueviolet;
     cursor: pointer;
+}
+
+.Link {
+    color: blue;
 }
