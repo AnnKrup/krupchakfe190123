@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserItem /> should render and match the snapshot 1`] = `
+<div
+  className="Wrapper"
+>
+  <div
+    className="CloseBtnWrapper"
+    data-testid="backButton"
+    onClick={[Function]}
+  >
+    <img
+      alt="closeBtn"
+      className="CloseBtnIcon"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Grey_close_x.svg/512px-Grey_close_x.svg.png?20140617032513"
+    />
+  </div>
+  <div
+    className="SingleUserCardTop"
+  >
+    <img
+      alt="user Brazil Izair"
+      className="SingleUserIcon"
+      src="/foto/2.jpg"
+    />
+    <div
+      data-testid="name"
+    >
+      Brazil Izair
+    </div>
+    <div
+      data-testid="position"
+    >
+      Managing Director
+    </div>
+  </div>
+  <div
+    className="SingleUserCardBottom"
+  >
+    <div
+      className="SingleUserCardBottomTitle"
+    >
+      <div>
+        Phone
+      </div>
+      <div>
+        Nickname
+      </div>
+      <div>
+        Email
+      </div>
+    </div>
+    <div>
+      <div>
+        902-782-3286
+      </div>
+      <div>
+        @brazilizair
+      </div>
+      <div>
+        brazil.izair@fallinhay.com
+      </div>
+    </div>
+  </div>
+  <div
+    className="BtnSendMessage"
+  >
+    Send message
+  </div>
+</div>
+`;

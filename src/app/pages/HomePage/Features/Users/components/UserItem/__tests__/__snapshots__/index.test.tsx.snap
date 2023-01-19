@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserItem /> should render and match the snapshot 1`] = `
+<div
+  className="UserItem"
+>
+  <div
+    className="UserItemInfo"
+  >
+    <img
+      alt="user Brazil Izair"
+      className="UserItemIcon"
+      src="foto/2.jpg"
+    />
+    <div>
+      <div>
+        Brazil Izair
+      </div>
+      <div>
+        @brazilizair
+      </div>
+    </div>
+  </div>
+  <div
+    className="UserItemBtnView"
+    onClick={[Function]}
+  >
+    View
+  </div>
+</div>
+`;

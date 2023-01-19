@@ -15,7 +15,6 @@
     "@types/react-test-renderer": "^18.0.0",
     "@types/rimraf": "^3.0.2",
     "@types/shelljs": "^0.8.11",
-    "@types/styled-components": "^5.1.26",
     "@types/testing-library__jest-dom": "^5.14.5",
     "@types/webpack": "^5.28.0",
     "@types/webpack-env": "^1.18.0",
@@ -31,7 +30,6 @@
     "i18next-scanner": "4.0.0",
     "inquirer": "7.3.3",
     "inquirer-directory": "2.2.0",
-    "jest-styled-components": "7.1.1",
     "lint-staged": "13.0.3",
     "node-plop": "0.26.3",
     "plop": "2.7.6",
@@ -46,8 +44,8 @@
     "react-router-dom": "6.3.0",
     "react-scripts": "5.0.1",
     "react-test-renderer": "18.2.0",
-    "redux-injectors": "1.3.0",
-    "redux-saga": "1.2.1",
+    "redux-mock-store": "1.5.4",
+    "redux-thunk": "2.4.2",
     "rimraf": "3.0.2",
     "sanitize.css": "13.0.0",
     "serve": "14.0.1",
@@ -74,12 +72,9 @@
     "lint:fix": "yarn run eslint --fix src",
     "lint:css": "stylelint src/**/*.css",
     "generate": "plop --plopfile internals/generators/plopfile.ts",
-    "cleanAndSetup": "ts-node ./internals/scripts/clean.ts",
     "prettify": "prettier --write",
-    "extract-messages": "i18next-scanner --config=internals/extractMessages/i18next-scanner.config.js"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "extract-messages": "i18next-scanner --config=internals/extractMessages/i18next-scanner.config.js",
+    "prepare": "husky install"
   },
   "browserslist": {
     "production": [

@@ -1,0 +1,91 @@
+.Wrapper {
+    max-width: 400px;
+    border: 1px solid grey;
+    margin: 20px;
+}
+
+.BtnViewAll {
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.UserItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+    align-items: center;
+}
+
+.UserItemInfo {
+    display: flex;
+    align-items: center;
+}
+
+.UserItemIcon {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.UserItemBtnView {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.CloseBtnWrapper {
+    display: flex;
+    justify-content: end;
+}
+
+.CloseBtnIcon {
+    width: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.SingleUserCardTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+}
+
+.SingleUserCardBottom {
+    display: flex;
+    margin: 20px;
+}
+
+.SingleUserCardBottomTitle {
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.SingleUserIcon {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.BtnSendMessage {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid blueviolet;
+    cursor: pointer;
+}

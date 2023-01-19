@@ -1,19 +1,9 @@
 import { configureAppStore } from '../configureStore';
+import { initialState } from '../../app/pages/HomePage/Features/Users/slice';
 
 describe('configureStore', () => {
-  it('should return a store with injected enhancers', () => {
+  it('should return initial', () => {
     const store = configureAppStore();
-    expect(store).toEqual(
-      expect.objectContaining({
-        runSaga: expect.any(Function),
-        injectedReducers: expect.any(Object),
-        injectedSagas: expect.any(Object),
-      }),
-    );
-  });
-
-  it('should return an empty store', () => {
-    const store = configureAppStore();
-    expect(store.getState()).toBeUndefined();
+    expect(store.getState()).toEqual({ users: initialState });
   });
 });
